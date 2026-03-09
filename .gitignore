@@ -1,0 +1,24 @@
+# Environnement
+AeroLLM/
+__pycache__/
+*.pyc
+.env
+
+# Données lourdes
+data/raw/
+*.csv
+*.json
+*.parquet
+
+# Modèles
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Outputs
+outputs/
+results/
